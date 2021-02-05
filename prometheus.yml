@@ -57,13 +57,13 @@ scrape_configs:
     module: [http_200_module]
   static_configs:
     - targets:
-      - https://tools-nad.techmahindra.com/jira
-      - https://confluence-nad.techmahindra.com
-      - https://tools-nad.techmahindra.com/prometheus
-      - https://gitlab-nad.techmahindra.com
-      - https://tools-nad.techmahindra.com/qa-jira
-      - https://tools-nad.techmahindra.com/sonar
-      - https://jenkins-nad.techmahindra.com
+      - https://tools.com/jira
+      - https://confluence.com
+      - https://tools-nad.com/prometheus
+      - https://gitlab.com
+      - https://tools.com/qa-jira
+      - https://tools.com/sonar
+      - https://jenkins.com
       
       labels:
           group: 'prod_site'
